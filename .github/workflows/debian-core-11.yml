@@ -1,4 +1,4 @@
-name: debian-core-10
+name: debian-core-11
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 
 env:
   BRANCH: master
-  GITHUB_ENDPOINT: netbootxyz/debian-core-10
+  GITHUB_ENDPOINT: netbootxyz/debian-core-11
   DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
   BUILD_TYPE: initrd_patch
   DEBIAN_FRONTEND: noninteractive

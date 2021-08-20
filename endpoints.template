@@ -1,8 +1,8 @@
 endpoints:
-  debian-10-live-kernel:
-    path: /debian-core-10/releases/download/REPLACE_RELEASE_NAME/
+  debian-11-live-kernel:
+    path: /debian-core-11/releases/download/REPLACE_RELEASE_NAME/
     files:
     - initrd
     - vmlinuz
     os: "debian"
-    version: "10"
+    version: "11"
