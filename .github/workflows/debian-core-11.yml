@@ -6,7 +6,8 @@ on:
       - master
   schedule:
     - cron: '0 4 * * 6'
-
+  workflow_dispatch:
+  
 env:
   BRANCH: master
   GITHUB_ENDPOINT: netbootxyz/debian-core-11
